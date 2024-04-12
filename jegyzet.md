@@ -51,4 +51,12 @@ QUnit.module("szamolas", function () {
   QUnit.test("Egy paraméter", (assert) => {
     assert.equal(szamolas(2), "Két paraméter legyen!" );
   });
+
+   QUnit.test("0 paraméter", (assert) => {
+    assert.equal(szamolas(), "Két paraméter legyen!" );
+  });
+
+  QUnit.test("Több paraméter", (assert) => {
+    assert.equal(szamolas(2,3,4), "Két paraméter legyen!" );
+  });
 });
