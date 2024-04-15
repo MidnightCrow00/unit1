@@ -3,6 +3,7 @@ QUnit.module("szamolas", function () {
     QUnit.test("Létezik-e?", (assert) => {
     assert.ok(szamolas);
   });
+  
 
   QUnit.test("Függvény-e?", (assert) => {
     assert.ok(typeof(szamolas == "function"));
